@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="windows-1251" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-11-30T13:17:53.999139Z</date>
+  <millis>1669814273999</millis>
+  <nanos>139000</nanos>
+  <sequence>0</sequence>
+  <logger>HWork_2.task_2</logger>
+  <level>INFO</level>
+  <class>HWork_2.task_2</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Iteratio element array: 90</message>
+</record>
+<record>
+  <date>2022-11-30T13:17:54.005141Z</date>
+  <millis>1669814274005</millis>
+  <nanos>141000</nanos>
+  <sequence>1</sequence>
+  <logger>HWork_2.task_2</logger>
+  <level>INFO</level>
+  <class>HWork_2.task_2</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Iteratio element array: 16</message>
+</record>
+<record>
+  <date>2022-11-30T13:17:54.016144600Z</date>
+  <millis>1669814274016</millis>
+  <nanos>144600</nanos>
+  <sequence>2</sequence>
+  <logger>HWork_2.task_2</logger>
+  <level>INFO</level>
+  <class>HWork_2.task_2</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Iteratio element array: 77</message>
+</record>
+<record>
+  <date>2022-11-30T13:17:54.016144600Z</date>
+  <millis>1669814274016</millis>
+  <nanos>144600</nanos>
+  <sequence>3</sequence>
+  <logger>HWork_2.task_2</logger>
+  <level>INFO</level>
+  <class>HWork_2.task_2</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Iteratio element array: 16</message>
+</record>
+<record>
+  <date>2022-11-30T13:17:54.016144600Z</date>
+  <millis>1669814274016</millis>
+  <nanos>144600</nanos>
+  <sequence>4</sequence>
+  <logger>HWork_2.task_2</logger>
+  <level>INFO</level>
+  <class>HWork_2.task_2</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Iteratio element array: 77</message>
+</record>
+</log>

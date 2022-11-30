@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="windows-1251" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-11-30T17:09:38.891647300Z</date>
+  <millis>1669828178891</millis>
+  <nanos>647300</nanos>
+  <sequence>0</sequence>
+  <logger>HWork_2.task_4</logger>
+  <level>INFO</level>
+  <class>HWork_2.task_4</class>
+  <method>getInt</method>
+  <thread>1</thread>
+  <message>Error: Wrong number, try again.</message>
+</record>
+<record>
+  <date>2022-11-30T17:09:49.325164500Z</date>
+  <millis>1669828189325</millis>
+  <nanos>164500</nanos>
+  <sequence>1</sequence>
+  <logger>HWork_2.task_4</logger>
+  <level>INFO</level>
+  <class>HWork_2.task_4</class>
+  <method>calculator</method>
+  <thread>1</thread>
+  <message>Calculation result: 20 + 5 = 25.0</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1251" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-11-30T17:10:15.871167900Z</date>
+  <millis>1669828215871</millis>
+  <nanos>167900</nanos>
+  <sequence>0</sequence>
+  <logger>HWork_2.task_4</logger>
+  <level>INFO</level>
+  <class>HWork_2.task_4</class>
+  <method>calculator</method>
+  <thread>1</thread>
+  <message>Calculation result: 34 - 20 = 14.0</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1251" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-11-30T17:10:35.827222Z</date>
+  <millis>1669828235827</millis>
+  <nanos>222000</nanos>
+  <sequence>0</sequence>
+  <logger>HWork_2.task_4</logger>
+  <level>INFO</level>
+  <class>HWork_2.task_4</class>
+  <method>calculator</method>
+  <thread>1</thread>
+  <message>Calculation result: 5 * -3 = -15.0</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1251" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-11-30T17:10:51.861867400Z</date>
+  <millis>1669828251861</millis>
+  <nanos>867400</nanos>
+  <sequence>0</sequence>
+  <logger>HWork_2.task_4</logger>
+  <level>INFO</level>
+  <class>HWork_2.task_4</class>
+  <method>calculator</method>
+  <thread>1</thread>
+  <message>Error: Division by zero.</message>
+</record>
+</log>
