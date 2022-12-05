@@ -1,6 +1,6 @@
 package HWork_3;
 
-import java.util.List;
+import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
 import java.util.logging.*;
@@ -13,13 +13,13 @@ public class task_3 {
 
     public static void main(String[] args) throws Exception {
         int n = getInt();
-        List<Integer> intList = new Random().ints(n, 1, 20).boxed().collect(Collectors.toList());
+        ArrayList<Integer> intList = (ArrayList<Integer>) new Random().ints(n, 1, 20).boxed().collect(Collectors.toList());
         System.out.print("Заданный список: " + intList + System.lineSeparator());
         System.out.print("Среднее значение: " + average(intList) + System.lineSeparator());
         MaxMinElement(intList);
     }
     // метод нахождения среднего из списка
-    public static double average(List<Integer> intList) {
+    public static double average(ArrayList<Integer> intList) {
         double sum = 0;
         for(int i=0; i<intList.size(); i++) {
             sum+=intList.get(i);
@@ -27,7 +27,7 @@ public class task_3 {
         return sum/intList.size();
     }
     // метод нахождения минимального и максимального из списка
-    public static void MaxMinElement(List<Integer> intList) {
+    public static void MaxMinElement(ArrayList<Integer> intList) {
         int min = intList.get(0);
         int max = intList.get(0);
         for (Integer i: intList) {
