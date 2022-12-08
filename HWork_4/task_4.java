@@ -14,8 +14,8 @@ public class task_4 {
         Handler fileHandler = new FileHandler("log_task4.xml", true); // Создание лог-файла
         logger.setUseParentHandlers(false); // Отключение консоли Handler
         logger.addHandler(fileHandler);
-        int choice;
-        do{
+        int choice = 0;
+        for(; choice != 1;){
             int num1 = getInt();
             int num2 = getInt();
             System.out.printf("Enter operation: " + System.lineSeparator());
@@ -28,7 +28,7 @@ public class task_4 {
             choise_operation(savebook, x);
             System.out.println("Выйти из программы?: 1) Да 2) Нет ");
             choice = getInt();
-        } while (choice == 2);
+        }
     }
 
     // Метод выбора команды
