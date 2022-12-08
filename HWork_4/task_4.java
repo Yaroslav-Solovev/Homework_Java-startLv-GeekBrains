@@ -15,6 +15,7 @@ public class task_4 {
         logger.setUseParentHandlers(false); // Отключение консоли Handler
         logger.addHandler(fileHandler);
         int choice = 0;
+        Stack<Integer> savebook = new Stack<>();
         for(; choice != 1;){
             int num1 = getInt();
             int num2 = getInt();
@@ -23,7 +24,6 @@ public class task_4 {
             float result = calculator(num1, num2, operation);
             System.out.println("Result of operation: " + result);
             int x = (int) result;
-            Stack<Integer> savebook = new Stack<>();
             System.out.println("Стек: " + savebook);
             choise_operation(savebook, x);
             System.out.println("Выйти из программы?: 1) Да 2) Нет ");
