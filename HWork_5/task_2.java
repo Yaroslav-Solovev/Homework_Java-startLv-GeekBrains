@@ -4,15 +4,19 @@
 package HWork_5;
 
 import java.util.ArrayList;
-import java.util.HashMap;
+import java.util.Comparator;
+import java.util.TreeMap;
+import java.util.Map.Entry;
+
 
 public class task_2 {
-    public static void printMap(HashMap<String, Integer> map){ // подчет повторений имен сотрудников
-        for (HashMap.Entry<String, Integer> entry : map.entrySet()) {
+    public static void printMap(TreeMap<String, Integer> map){ // подчет повторений имен сотрудников
+        for (Entry<String, Integer> entry : map.entrySet()) {
             System.out.println("Имя: " + entry.getKey() + ", Повторений: " + entry.getValue());
         }
     }
-    public static void main(String[] args) throws Exception {
+
+    public static void main(String[] args) {
 
         ArrayList<String> book = new ArrayList<>();
         book.add("Иван Иванов");
@@ -38,20 +42,19 @@ public class task_2 {
         ArrayList<String> datalist = new ArrayList<String>(); // во временнй список кладем список имен из book
         for(int i = 0; i < book.size(); i++){
             String[] arrStrings = book.get(i).split(" ");
-            // searchBook.put(arrStrings[1], arrStrings[0]);
-            // searchBook.put(i, arrStrings[0]);
             datalist.add(arrStrings[0]);
         }
 
-        HashMap<String, Integer> map = new HashMap<String, Integer>(); // в конструктор кладем временный список datalist
+        TreeMap<String, Integer> map = new TreeMap<String, Integer>(); // в конструктор кладем временный список datalist
         for (String temp : datalist) {
             Integer count = map.get(temp);
             map.put(temp, (count == null) ? 1 : count + 1);
         }
-
-        printMap(map);
-
-
-
+        // вывод повторяющихся имен с количеством повторений
+        System.out.println("Вывод повторяющихся имен сотрудников с количеством повторений: ");
+        printMap(map); 
+        // сортировка по убыванию популярности
+        System.out.println("Вывод отсортированного списка имен сотрудников по убыванию популярности: ");
+        map.entrySet().stream().sorted(Entry.comparingByValue(Comparator.reverseOrder())).forEach(System.out::println);   
     }    
 }
