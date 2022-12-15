@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Notebook {
     static Scanner scanner = new Scanner(System.in);
     
-    protected Integer id; // Индетификационный номер
+    protected Integer id; // Идентификационный номер
     protected String model; // Модель
     protected Integer ram; // ОЗУ
     protected Integer capacityHardDisk; // Объем ЖД
